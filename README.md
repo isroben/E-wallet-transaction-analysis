@@ -4,21 +4,8 @@ This project analyzes E-Wallet customer data to understand **demographics, spend
 
 ---
 
-## 🗂️ **Dataset**
-
-| Column                 | Description                                  |
-|------------------------|----------------------------------------------|
-| CustomerID             | Unique customer identifier                   |
-| Gender                 | Gender of the customer                       |
-| Age                    | Customer's age                               |
-| Annual Income ($)      | Annual income in USD                         |
-| Spending Score (1–100) | Customer’s spending behavior score           |
-| Profession             | Profession or job title                      |
-| Work Experience        | Years of work experience                     |
-| Family Size            | Number of family members                     |
-
----
-
+##  **Dataset**
+    https://www.kaggle.com/datasets/datascientistanna/customers-dataset?select=Customers.csv
 ## **Key Business Questions & Insights**
 
 ### **General Demographic Questions**
@@ -74,7 +61,7 @@ This project analyzes E-Wallet customer data to understand **demographics, spend
 
 ---
 
-### 📅 **Trend & Segmentation Questions**
+### **Trend & Segmentation Questions**
 
 10. **Clusters:** Are there noticeable clusters based on income & spending?  
 **Method:** K-Means clustering, Elbow/Silhouette method.
@@ -90,34 +77,6 @@ This project analyzes E-Wallet customer data to understand **demographics, spend
 
 1️4. **Age + Profession:** Are certain age groups in certain professions bigger spenders?  
 **Insight:** Builds precise customer personas.
-
----
-
-### 📌 **Actionable Business Questions**
-
-15. **Most Valuable Segments:** Who should get loyalty rewards?  
-16. **Upselling:** Which groups should get upsell campaigns?  
-17. **Boost Low Spenders:** Who can be targeted with promos to increase spend?  
-18. **Marketing Strategy:** Should it differ by profession or family size?  
-19. **Increase Spend:** How to improve spending score for low spenders?
-
-*These recommendations guide future marketing and product design.*
-
----
-
-### 📈 **Insight & Reporting Questions**
-
-20. **Correlation Matrix:** What’s the correlation between all numeric variables?  
-**Method:** `df.corr()` heatmap.  
-**Insight:** Spots hidden patterns.
-
-21. **Meaningful Segments:** Can we group customers into actionable segments?  
-**Method:** K-Means, RFM analysis (optional).  
-**Insight:** Clearer personas for campaigns.
-
-22. **Lifetime Value:** What is the potential LTV of different segments?  
-**Insight:** Aligns retention & loyalty programs.
-
 ---
 
 ## 🗃️ **Tools & Methods**
