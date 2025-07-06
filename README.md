@@ -79,7 +79,7 @@ This project analyzes E-Wallet customer data to understand **demographics, spend
 **Insight:** Builds precise customer personas.
 ---
 
-## 🗃️ **Tools & Methods**
+##  **Tools & Methods**
 
 - **Language:** Python, SQL
 - **Libraries:** pandas, numpy, seaborn, matplotlib, scikit-learn
@@ -87,30 +87,13 @@ This project analyzes E-Wallet customer data to understand **demographics, spend
 
 ---
 
-## 📌 **Impact**
+##  **Impact**
 
-✅ Delivered clear demographic and spending insights to help the company:
+ Delivered clear demographic and spending insights to help the company:
 - Understand its customer base
 - Target valuable segments with promotions & loyalty rewards
 - Retain and upsell to underserved high-income groups
 - Design data-driven marketing strategies
 
----
 
-## 📈 **Sample Visualizations**
-
-- Gender & Family Size Countplots  
-- Age & Income Distributions  
-- Scatterplots (Income vs Spend)  
-- Bar charts by Profession  
-- Clusters in Income-Spend space  
-- Correlation Heatmap
-
----
-
-## 🚀 **Next Steps**
-
-✅ Deploy as Streamlit dashboard for business users  
-✅ Add churn prediction model for retention  
-✅ Test real-time segmentation with new customer data
 
